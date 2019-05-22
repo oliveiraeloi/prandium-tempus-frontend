@@ -4,3 +4,7 @@
 @import './components.css';
 
 @import 'tailwindcss/utilities';
+
+body {
+  @apply bg-gray-100;
+}

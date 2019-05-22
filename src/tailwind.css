@@ -7526,6 +7526,10 @@ video {
   z-index: auto;
 }
 
+body {
+  background-color: #f7fafc;
+}
+
 @media (min-width: 640px) {
   .sm\:appearance-none {
     -webkit-appearance: none;
