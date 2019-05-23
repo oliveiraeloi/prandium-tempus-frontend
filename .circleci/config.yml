@@ -38,3 +38,7 @@ jobs:
           command: npm run test
           # environment:
           #   JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
+
+      - run:
+          name: "Build"
+          commmand: npm run build
