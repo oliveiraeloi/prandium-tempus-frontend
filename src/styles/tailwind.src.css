@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+@import './components/Button.css';
+
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-gray-100;
+}
