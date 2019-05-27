@@ -7,10 +7,6 @@ import OrderList from './OrderList';
 const App: React.FC = () => {
   return (
     <div className="container mx-auto">
-      {/*<div>
-        <h1 className="inline-block">Lunch time</h1>
-        <button className="py-2 px-4 font-bold text-green-500 border border-solid border-green-500 rounded-full">Create new order</button>
-      </div>*/}
       <OrderList />
     </div>
   );
